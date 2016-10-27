@@ -1,5 +1,5 @@
 require 'rest-client'
-require 'Base64'
+require 'base64'
 
 require File.dirname(__FILE__) + '/qcloudapi/version'
 require File.dirname(__FILE__) + '/qcloudapi/common/base'
