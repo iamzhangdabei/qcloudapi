@@ -43,7 +43,8 @@ module Qcloudapi
           'appId' => appId,
           'search_query' => search_query,
           'page_id' => page_id,
-          'num_per_page' => num_per_page
+          'num_per_page' => num_per_page,
+          'max_doc_return' => 3000
         }
 
         self.DataSearch(params)
